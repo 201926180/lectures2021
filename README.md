@@ -4,11 +4,11 @@
   * Lectures/Seminars: Dr. Marcos Barreto (m.e.barreto@lse.ac.uk)
 
 * **Lectures**: 
-   * Wednesday, 11:00 - 13:00, **<LOCAL>**
+   * Wednesday, 11:00 - 13:00, **LOCAL**
    * Lecture materials available on [Moodle](https://moodle.lse.ac.uk/course/view.php?id=7681)
 
 * **Seminars**:
-   * Seminar materials available on **[GitHub]()**
+   * Seminar materials available on **GitHub**
    * Group 1: Friday, 11:00-12:30, **<LOCAL>**, Zoom [link](XXX), Meeting ID: XXX, Passcode: XXX
    * Group 2: Friday, 13:00-14:30, **<LOCAL>**, Zoom [link](XXX), Meeting ID: XXX, Passcode: XXX
 
@@ -33,7 +33,7 @@
  
    Summative assignments:
    * Students are required to hand in solutions to 4 sets of exercises, each accounting for 10% of the final assesment.
-   * The project will require solving a practical task involving data model design, loading and querying the imported data in the database, and performing some data analysis.
+   * The project will require solving a practical task involving data model design, loading and querying data in the database, and performing some data analysis.
  
    Formative assignments:
    * Register for Gradescope: [fill in you details in this form](https://forms.gle/4Awbmhy2Q4iFRnNeA).
