@@ -1,18 +1,23 @@
 # ST207 - Databases (MT 2021-22)
 
-* **Instructors:**
+* **Instructor:**
   * Lectures/Seminars: Dr. Marcos Barreto (m.e.barreto@lse.ac.uk)
 
 * **Lectures**: 
-   * Wednesday, 11:00 - 13:00, **LOCAL**
+   * Wednesday, 11:00 - 13:00
+   * Online (synchronous) - [Zoom link](https://lse.zoom.us/j/87143076923?pwd=TEdVYU1tcTFDQ0dYUys3Ly9STERpQT09), Meeting ID: 871 4307 6923 Passcode: 979248
+   * Once we move to in-person teaching, **KSW.1.03**
    * Lecture materials available on [Moodle](https://moodle.lse.ac.uk/course/view.php?id=7681)
 
 * **Seminars**:
-   * Seminar materials available on **GitHub**
-   * Group 1: Friday, 11:00-12:30, **<LOCAL>**, Zoom [link](XXX), Meeting ID: XXX, Passcode: XXX
-   * Group 2: Friday, 13:00-14:30, **<LOCAL>**, Zoom [link](XXX), Meeting ID: XXX, Passcode: XXX
+   * Seminar materials available on [GitHub](https://github.com/lse-st207/lectures2021)
+   * Group 1: Friday, 11:00-12:30, [Zoom link](https://lse.zoom.us/j/85696111320?pwd=RWhySmVtU2lyTnh4RHhINjUyK2VUZz09), Meeting ID: 856 9611 1320 Passcode: 038367
+   * Group 2: Friday, 12:30-14:00, [Zoom link](https://lse.zoom.us/j/82069017236?pwd=a1dLNU92TzhkQ2JjeTVHRkl4bk9QQT09), Meeting ID: 820 6901 7236 Passcode: 439215
+   * Once we move to in-person teaching, **KSW.3.02**
 
-* **Office hours**: Week 2 onwards. Use [LSE Student Hub](https://studenthub.lse.ac.uk/) to book a time slot.
+* **Office hours (Week 2 onwards**:
+   * Monday, 15:30-16:30, **COL.5.04**
+   * Use [LSE Student Hub](https://studenthub.lse.ac.uk/) to book a time slot.
 
 * **Syllabus and Agenda**
    * Week 01: Introduction to databases.
