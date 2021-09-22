@@ -6,7 +6,6 @@
 * **Lectures**: 
    * Wednesday, 11:00 - 13:00
    * Online (synchronous) - [Zoom link](https://lse.zoom.us/j/87143076923?pwd=TEdVYU1tcTFDQ0dYUys3Ly9STERpQT09), Meeting ID: 871 4307 6923 Passcode: 979248
-   * Once we move to in-person teaching, **KSW.1.03**
    * Lecture materials available on [Moodle](https://moodle.lse.ac.uk/course/view.php?id=7681)
 
 * **Seminars**:
