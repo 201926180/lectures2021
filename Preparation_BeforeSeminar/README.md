@@ -25,7 +25,7 @@ Note that all this software will also be available at LSE's lab computers, but w
 
 9. [Python and SQL](https://moodle.lse.ac.uk/course/view.php?id=7696) - Dataquest course (curated by LSE Digital Skills Lab.). The enrolment key is `py4stats`.
 
-* **Read the relevant LSE documents** *
+* **Read the relevant LSE documents**
 
 10. [General Code of Conduct](./LSE_GeneralConduct.pdf)
 11. [Ethics Code](https://info.lse.ac.uk/staff/divisions/Secretarys-Division/Ethics/Ethics-Code)
