@@ -25,9 +25,15 @@ Note that all this software will also be available at LSE's lab computers, but w
 
 9. [Python and SQL](https://moodle.lse.ac.uk/course/view.php?id=7696) - Dataquest course (curated by LSE Digital Skills Lab.). The enrolment key is `py4stats`.
 
+* **Read the relevant LSE documents** *
+
+10. [General Code of Conduct](./LSE_GeneralConduct.pdf)
+11. [Ethics Code](https://info.lse.ac.uk/staff/divisions/Secretarys-Division/Ethics/Ethics-Code)
+12. [Coronavirus Response](https://info.lse.ac.uk/coronavirus-response/Keeping-our-community-safe-on-campus)
+
 * **Attend the course and engage with the proposed activities**
 
-10. Make sure you attend all course sessions (lectures and seminars).
-11. Make sure you engage with all the proposed activities.
-12. Have your say! Bring your questions, suggestions, complains etc - they are all welcome!
-13. Have fun studying and learning Databases!
+13. Make sure you attend all course sessions (lectures and seminars).
+14. Make sure you engage with all the proposed activities.
+15. Have your say! Bring your questions, suggestions, complains etc - they are all welcome!
+16. Have fun studying and learning Databases!
