@@ -13,7 +13,7 @@
    * Group 1: Friday, 11:00-12:30, **KSW.3.02** / [Zoom link](https://lse.zoom.us/j/85696111320?pwd=RWhySmVtU2lyTnh4RHhINjUyK2VUZz09), Meeting ID: 856 9611 1320 Passcode: 038367
    * Group 2: Friday, 16:00-17:30, **CBG.1.03** / [Zoom link](https://lse.zoom.us/j/82069017236?pwd=a1dLNU92TzhkQ2JjeTVHRkl4bk9QQT09), Meeting ID: 820 6901 7236 Passcode: 439215
 
-* **Office hours (Week 2 to 10)**:
+* **Office hours (Weeks 2 to 10)**:
    * Monday, 15:30-16:30, **COL.5.04** / [Zoom link](https://lse.zoom.us/j/82623079103?pwd=Z2I1VFBkU1FpQUF0dVlMVVcwMlpBQT09), Meeting ID: 826 2307 9103
 Passcode: 904548
    * Use [LSE Student Hub](https://studenthub.lse.ac.uk/) to book a 10-minute slot (48 hours in advance).
