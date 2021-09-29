@@ -4,7 +4,9 @@
 
 * **Software installation on your personal computer**
 
-Note that all this software will also be available at LSE's lab computers, but we strongly recommend that you have all of them installed in your personal computer.
+**Make sure you bring you personal computer or [borrow one from LSE](https://info.lse.ac.uk/current-students/dts/services/iRoam)**.
+
+Note that all this software will also be available at LSE's lab computers and through Remote Desktop, but we strongly recommend that you have all of them installed in your personal computer.
 
 1. Install [SQLite](https://www.sqlite.org/index.html).
 2. Install [DB Browser](https://sqlitebrowser.org/).
