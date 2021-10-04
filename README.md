@@ -21,8 +21,8 @@ Passcode: 904548
 * **Slack workspace**:
    * Sign in to our [ST207 workspace on Slack](https://join.slack.com/t/st207-mt2021-qa/shared_invite/zt-wnu15rp1-1Kwbl9Fvd6NtLsTss45qPg).
    * We have one channel for each seminar week. Please, send all your questions to the specific channel. 
-   * Also, **help each other on finding solutions to the reported questions**.
-   * Please, **do not distributed this link**.
+   * Also, **help each other in finding solutions to the reported questions**.
+   * Please, **do not distribute this link**.
    
 * **Syllabus and Agenda**
    * Week 01: Introduction to databases.
