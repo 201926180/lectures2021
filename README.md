@@ -48,12 +48,12 @@ Passcode: 904548
    Formative assignments:
    * Register for Gradescope: [fill in you details in this form](https://forms.gle/4Awbmhy2Q4iFRnNeA).
 
-* **Important Dates (tentative)**
-   * Coursework 1 assignment: week 2, solution deadline 20/09
-   * Coursework 2 assignment: week 4, solution deadline 03/10
-   * Coursework 3 assignment: week 7, solution deadline 24/11
-   * Coursework 4 assignment: week 9, solution deadline 08/12
-   * Course project: **TBD**
+* **Important Dates**
+   * Coursework 1 assignment: week 2, solution deadline: 22/10/2021
+   * Coursework 2 assignment: week 4, solution deadline: 05/11/2021
+   * Coursework 3 assignment: week 7, solution deadline: 26/11/2021
+   * Coursework 4 assignment: week 9, solution deadline: 10/12/2021
+   * Course project: week 11, solution deadline: 07/01/2022
 
 * **Software/Computing resources**
    - [draw.io](http://draw.io) - E-R modelling
