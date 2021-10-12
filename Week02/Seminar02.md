@@ -130,4 +130,5 @@ Write additional SQL commands for the following questions:
 ### References
 
 - [Command Line Shell For SQLite](https://sqlite.org/cli.html)
+- [Datapane documentation](https://docs.datapane.com/)
 - All images, except Northwind, from the Elmasri & Navathe reference book. Northwind database image from <a href="https://github.com/jpwhite3/northwind-SQLite3">here</a>.
