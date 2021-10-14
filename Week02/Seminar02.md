@@ -52,9 +52,69 @@ Alternatively, you can use the *DB Browser for SQLite3* graphical interface. In 
 Write SQL commands to answer the following:
 
 1. List all product names and unit prices supplied by each company (supplier). Also list the supplier's name.
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+    SELECT P.ProductName, P.UnitPrice, S.CompanyName
+      FROM Product P
+      JOIN Supplier S ON P.SupplierId = S.Id
+  GROUP BY P.SupplierId
+  ORDER BY 2 ASC;
+```
+  
+</details>
+
 2. List the category of the 10 top-seller products.
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+  SELECT CategoryName
+    FROM Category C
+    JOIN Product P ON C.Id = P.CategoryId
+   WHERE P.Id IN
+         (SELECT ProductId
+            FROM OrderDetail 
+        ORDER BY (UnitPrice*Quantity) DESC 
+           LIMIT 10);
+```
+  
+</details>
+
 3. List the details of the employee who have placed more orders.
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+  SELECT *
+    FROM Employee
+   WHERE Id IN
+         (SELECT EmployeeId 
+            FROM (SELECT EmployeeId, COUNT(*) mycount 
+                    FROM [Order] 
+                GROUP BY EmployeeId
+                ORDER BY 2 DESC)
+          LIMIT 1);
+```
+  
+</details>
+
 4.	For all customers, list all the products they bought.
+
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+    SELECT C.CompanyName, P.ProductName
+      FROM Customer C
+      JOIN [Order] O ON O.CustomerId = C.Id
+      JOIN OrderDetail OD ON OD.OrderId = O.Id
+      JOIN Product P ON OD.ProductId = P.Id
+  GROUP BY C.Id;
+```
+  
+</details>
 
 **Submit your answer through [Gradescope, Week_02_2: SQL programming NORTHWIND](https://www.gradescope.com/courses/278944/assignments/1377456/submissions)**
 
@@ -125,10 +185,35 @@ Notice the following:
 Write additional SQL commands for the following questions:
 
 1. Which tracks are on the playlist "Brazilian Music"?
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+  SELECT playlist.name,  track.name
+    FROM playlist
+    JOIN playlist_track ON playlist_track.playlist_id  = playlist.playlist_id
+    JOIN track ON playlist_track.track_id = track.track_id
+   WHERE playlist.name = "Brazilian Music";
+```
+  
+</details>
+
 2. How many tracks are there by each of Amy Winehouse's albums? (tip: you can use some aggregation function to count the number of tracks).
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+    SELECT artist.name, album.title, count(*) as number_tracks
+      FROM artist
+      JOIN album ON artist.artist_id = album.artist_id
+      JOIN track ON album.album_id = track.album_id
+     WHERE artist.name = "Amy Winehouse"
+  GROUP BY title;
+```
+  
+</details>
 
 ### References
 
 - [Command Line Shell For SQLite](https://sqlite.org/cli.html)
-- [Datapane documentation](https://docs.datapane.com/)
 - All images, except Northwind, from the Elmasri & Navathe reference book. Northwind database image from <a href="https://github.com/jpwhite3/northwind-SQLite3">here</a>.
