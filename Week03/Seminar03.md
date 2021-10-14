@@ -9,12 +9,13 @@ In this seminar, we will extend our understanding of the SQL programming languag
 Some basic recap on the structure of a SQL `SELECT` query ("[]" denotes optional):
 
 ```
-   SELECT  <columns to appear in output>
+   SELECT  <columns to appear in the output>
      FROM  <table(s) to be used>
+    [JOIN  <other tables to be used>]
    [WHERE  <filters applied to rows>]
 [GROUP BY  <groups of rows with same column value>]
   [HAVING  <groups filtered according to some condition>]
-[ORDER BY  <order of the results>];
+[ORDER BY  <ordering of results>];
 ```
 
 ### Activity 1: joining tables
