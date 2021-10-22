@@ -43,9 +43,60 @@ You can [download the sample database here](https://www.sqlitetutorial.net/wp-co
 Write SQL commands for the following questions:
 
 1. Print all track names in the playlist "Heavy Metal Classic". Additionally, you can test with other playlists (e.g. Grunge, Brazilian Music).
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+  SELECT T.Name as TrackName
+    FROM tracks T, playlist_track PT 
+   WHERE T.TrackId = PT.TrackId and PT.PlaylistId IN 
+         (SELECT PlaylistID
+            FROM playlists
+           WHERE Name = "Heavy Metal Classic");
+```
+  
+</details>
+
 2. Find the invoice with the highest total value and print its invoice items.
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+ SELECT * 
+   FROM invoice_items 
+  WHERE InvoiceID IN 
+        (SELECT InvoiceId FROM invoices WHERE Total IN 
+        (SELECT MAX(Total) FROM invoices));
+```
+  
+</details>
+
 3. Find the three customers who bought most items and print their details.
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+ SELECT * 
+   FROM customers 
+  WHERE customerid IN 
+        (SELECT customerid FROM invoices where total IN
+        (SELECT Total FROM invoices ORDER BY Total DESC) LIMIT 3);
+```
+  
+</details>
+
 4. Which tracks are by Amy Winehouse?
+
+<details><summary><b>Solution (Click me)</b></summary>
+ 
+```sql
+ SELECT Name, Title
+   FROM Artists
+   JOIN Albums ON Albums.ArtistId = Artists.ArtistId
+  WHERE Name = "Amy Winehouse";
+```
+ 
+</details>
 
 **Submit your answer through [Gradescope, Week_01_2_2: SQL programming Chinook](https://www.gradescope.com/courses/278944/assignments/1377323/submissions)**
 
