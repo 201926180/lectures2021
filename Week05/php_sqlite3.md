@@ -103,7 +103,6 @@ EOF;
    # YOUR CODE HERE
 
 // checking the result
-$ret = $db->exec($sql);
 if(!$ret) {
    echo $db->lastErrorMsg();
 } else {
