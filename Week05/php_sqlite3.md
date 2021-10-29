@@ -14,7 +14,7 @@ class MyDB extends SQLite3 {
   // class constructor
   function __construct() {
     // database file
-    $this->open('test.db');
+    $this->open('test.db'); // CHANGE test.db to 'yourname.db' - ex 'marcos.db'
   }
 }
 // instantiating the MyDB application and creating the database (db) instance
@@ -36,7 +36,7 @@ if(!$db) {
 // Opening the existing 'test.db' database
    class MyDB extends SQLite3 {
       function __construct() {
-         $this->open('test.db');
+         $this->open('test.db'); // CHANGE test.db to 'yourname.db' - ex 'marcos.db'
       }
    }
    // obtaining a connection with the database
@@ -80,7 +80,7 @@ $db->close();
 // Opening the existing 'test.db' database
    class MyDB extends SQLite3 {
       function __construct() {
-         $this->open('test.db');
+         $this->open('test.db'); // CHANGE test.db to 'yourname.db' - ex 'marcos.db'
       }
    }
    // obtaining a connection with the database
@@ -123,7 +123,7 @@ $db->close();
 // Opening the existing 'test.db' database
    class MyDB extends SQLite3 {
       function __construct() {
-         $this->open('test.db');
+         $this->open('test.db'); // CHANGE test.db to 'yourname.db' - ex 'marcos.db'
       }
    }
    // obtaining a connection with the database
@@ -164,7 +164,7 @@ Example: you want to update the salary of a given person based on her/his ID or 
 // Opening the existing 'test.db' database
    class MyDB extends SQLite3 {
       function __construct() {
-         $this->open('test.db');
+         $this->open('test.db'); // CHANGE test.db to 'yourname.db' - ex 'marcos.db'
       }
    }
    // obtaining a connection with the database
@@ -204,7 +204,7 @@ Example: you want to remove someone from your database based on her/his ID or he
 // Opening the existing 'test.db' database
    class MyDB extends SQLite3 {
       function __construct() {
-         $this->open('test.db');
+         $this->open('test.db'); // CHANGE test.db to 'yourname.db' - ex 'marcos.db'
       }
    }
    // obtaining a connection with the database
