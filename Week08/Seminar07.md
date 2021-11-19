@@ -10,6 +10,8 @@ Open the [ex_indexes.sql](./ex_indexes.sql) script for some examples on SQLite i
 
 Have a look at the [SQLite architecture](https://www.sqlite.org/arch.htm) and how B-Trees are used to store database file and indexes.
 
+Play with some **B-Tree simulators** (check References).
+
 ### References
 
 - [SQLite documentation on indexes](https://www.sqlite.org/lang_createindex.html)
