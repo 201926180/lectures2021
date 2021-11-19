@@ -18,3 +18,9 @@ Have a look at the [SQLite architecture](https://www.sqlite.org/arch.htm) and ho
 - [How Database B-Tree Indexing Works](https://dzone.com/articles/database-btree-indexing-in-sqlite)
 - [Database B-Tree Indexing in SQLite](https://medium.com/technology-in-essence/database-btree-indexing-in-sqlite-d5144cb2850b)
 - [Squeezing Performance from SQLite: Indexes? Indexes!](https://medium.com/@JasonWyatt/squeezing-performance-from-sqlite-indexes-indexes-c4e175f3c346)
+
+#### B-Tree simulators
+
+- [b-tree-lol](https://yangez.github.io/btree-js/)
+- [B-Tree](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
+- Programiz - [B-tree](https://www.programiz.com/dsa/b-tree)
