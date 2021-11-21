@@ -31,8 +31,8 @@ Passcode: 904548
    * Week 04: Advanced SQL.
    * Week 05: Database programming techniques.
    * Week 06: *Reading week (no lecture/seminar)*
-   * Week 07: Storage and indexing structures.
-   * Week 08: Transaction management and concurrency.
+   * Week 07: Transaction management and concurrency.
+   * Week 08: Storage and indexing structures.
    * Week 09: NoSQL and graph databases.
    * Week 10: Query processing and optimisation.
    * Week 11: Functional dependencies and normalisation.
@@ -49,11 +49,11 @@ Passcode: 904548
    * Register for Gradescope: [fill in you details in this form](https://forms.gle/4Awbmhy2Q4iFRnNeA).
 
 * **Important Dates**
-   * Coursework 1 assignment: week 2, solution deadline: 25/10/2021
-   * Coursework 2 assignment: week 4, solution deadline: 05/11/2021
-   * Coursework 3 assignment: week 7, solution deadline: 26/11/2021
-   * Coursework 4 assignment: week 9, solution deadline: 10/12/2021
-   * Course project: week 11, solution deadline: 07/01/2022
+   * Coursework 1 assignment: week 2 (11/10), solution deadline: 25/10/2021
+   * Coursework 2 assignment: week 4 (01/11), solution deadline: 15/11/2021
+   * Coursework 3 assignment: week 8 (19/11), solution deadline: 03/12/2021
+   * Coursework 4 assignment: week 10 (03/12), solution deadline: 17/12/2021
+   * Course project: week 11 (10/12), solution (firm) deadline: 07/01/2022
 
 * **Software/Computing resources**
    - [draw.io](http://draw.io) - E-R modelling
