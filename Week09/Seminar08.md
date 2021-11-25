@@ -1,6 +1,6 @@
 ## Seminar 08 - NoSQL Databases (part 1)
 
-In this seminar, we will play with [MongoDB](https://www.mongodb.com/atlas/database), a **document-based* database.
+In this seminar, we will play with [MongoDB](https://www.mongodb.com/atlas/database), a **document-based** database.
 
 ### Activity 1 (tutorial) - MongoDB Atlas
 
